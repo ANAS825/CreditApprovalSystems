@@ -6,11 +6,17 @@ This project is a Credit Approval System built using Django 4+ and Django Rest F
 
 **ENDPOINTS**
 api/ customers/ ---> List All Customers
+
 api/ customer/<int:id>/ --> Get Customer Details By Id
+
 api/ customer/view-loan/<int:id>/ ---> View Customer's Loans
+
 api/ register/ ---> Register New Customer
+
 api/ check-eligibility/ ---> Check Customer's Eligiblity For Loan (using Credit score)
+
 api/ create-loan/ ---> Create New Loan WIth with Customer Based on Eligbility
+
 api/ view-loan/<int:loan_id>/ ---> Get Loans By Loan_Id
 
 
