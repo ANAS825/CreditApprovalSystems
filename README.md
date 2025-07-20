@@ -12,3 +12,7 @@ api/ register/ ---> Register New Customer
 api/ check-eligibility/ ---> Check Customer's Eligiblity For Loan (using Credit score)
 api/ create-loan/ ---> Create New Loan WIth with Customer Based on Eligbility
 api/ view-loan/<int:loan_id>/ ---> Get Loans By Loan_Id
+
+
+
+**Go to MASTER branch For Files**
